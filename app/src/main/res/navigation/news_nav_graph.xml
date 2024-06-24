@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/news_nav_graph"
+    app:startDestination="@id/headlinesFragment2">
+
+    <fragment
+        android:id="@+id/articleFragment"
+        android:name="com.nishal.newsapp.ui.fragments.ArticleFragment"
+        android:label="ArticleFragment" >
+
+        <argument
+            android:name="article"
+            app:argType="com.nishal.newsapp.models.Article"/>
+    </fragment>
+    <fragment
+        android:id="@+id/favouritesFragment2"
+        android:name="com.nishal.newsapp.ui.fragments.FavouritesFragment"
+        android:label="FavouritesFragment" >
+        <action
+            android:id="@+id/action_favouritesFragment2_to_articleFragment"
+            app:destination="@id/articleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/headlinesFragment2"
+        android:name="com.nishal.newsapp.ui.fragments.HeadlinesFragment"
+        android:label="HeadlinesFragment" >
+        <action
+            android:id="@+id/action_headlinesFragment2_to_articleFragment"
+            app:destination="@id/articleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment2"
+        android:name="com.nishal.newsapp.ui.fragments.SearchFragment"
+        android:label="SearchFragment" >
+        <action
+            android:id="@+id/action_searchFragment2_to_articleFragment"
+            app:destination="@id/articleFragment" />
+    </fragment>
+</navigation>
