@@ -10,7 +10,6 @@ NewsApp is an Android application that provides users with the latest news artic
 - [Usage](#usage)
 - [Architecture](#architecture)
 - [Libraries Used](#libraries-used)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
