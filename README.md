@@ -21,11 +21,11 @@ NewsApp is an Android application that provides users with the latest news artic
 - Responsive and user-friendly UI
 
 ## Screenshots
-
+<div>
 ![Headlines](screenshots/headlines.jpg)
 ![Article Detail](screenshots/headlines2.jpg)
 ![Favourites](screenshots/fav.jpg)
-
+</div>
 ## Installation
 
 1. **Clone the repository:**
