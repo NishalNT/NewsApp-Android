@@ -63,16 +63,12 @@ NewsApp is an Android application that provides users with the latest news artic
   + Use the search bar to find news articles based on keywords.
 ## Architecture
  +The app follows the MVVM (Model-View-ViewModel) architecture pattern to ensure a clean separation of concerns and to make the code more maintainable.
-
    + Model:
-
      + Represents the data layer of the application. It includes data classes and repository classes that handle data operations.
    + View:
-
      + Represents the UI layer of the application. It includes Activities and Fragments that display data to the user.
    + ViewModel:
-
-     +Acts as a bridge between the Model and the View. It holds the data and business logic, exposing it to the View.
+     + Acts as a bridge between the Model and the View. It holds the data and business logic, exposing it to the View.
 ## Libraries Used
 + Retrofit: For network calls to fetch news data from the API
 + Glide: For image loading and caching
