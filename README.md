@@ -21,11 +21,10 @@ NewsApp is an Android application that provides users with the latest news artic
 - Responsive and user-friendly UI
 
 ## Screenshots
-<div>
 ![Headlines](screenshots/headlines.jpg)
 ![Article Detail](screenshots/headlines2.jpg)
 ![Favourites](screenshots/fav.jpg)
-</div>
+
 ## Installation
 
 1. **Clone the repository:**
@@ -35,45 +34,45 @@ NewsApp is an Android application that provides users with the latest news artic
    ```
 2. Open the project in Android Studio:
 
-+ Open Android Studio
-+ Select Open an existing Android Studio project
-+ Navigate to the cloned repository directory and select it
+  + Open Android Studio
+  + Select Open an existing Android Studio project
+  + Navigate to the cloned repository directory and select it
   
 3. Get an API Key:
 
-This app uses the NewsAPI to fetch news articles. You will need an API key from `[https://newsapi.org](https://newsapi.org/)`.
+  + This app uses the NewsAPI to fetch news articles. You will need an API key from `[https://newsapi.org](https://newsapi.org/)`.
 
-+ Sign up on NewsAPI and get your API key.
+  + Sign up on NewsAPI and get your API key.
 4. Add the API Key to the project:
-+ Open `util/Constants` and add the `api_key`
+  + Open `util/Constants` and add the `api_key`
   
 5. Run the app:
 
-+ Connect your Android device or start an emulator
-+ Click on the `Run` button in Android Studio
+  + Connect your Android device or start an emulator
+  + Click on the `Run` button in Android Studio
 ## Usage1
 1. Home Screen:
 
-+ Displays the latest news articles in a list.
-+ Click on any article to view its details.
+  + Displays the latest news articles in a list.
+  + Click on any article to view its details.
 2. Article Detail:
 
-+ Displays the full content of the selected news article.
+  + Displays the full content of the selected news article.
 3. Search:
 
-+ Use the search bar to find news articles based on keywords.
+  + Use the search bar to find news articles based on keywords.
 ## Architecture
-The app follows the MVVM (Model-View-ViewModel) architecture pattern to ensure a clean separation of concerns and to make the code more maintainable.
+ +The app follows the MVVM (Model-View-ViewModel) architecture pattern to ensure a clean separation of concerns and to make the code more maintainable.
 
-+ Model:
+   + Model:
 
-  + Represents the data layer of the application. It includes data classes and repository classes that handle data operations.
-+ View:
+     + Represents the data layer of the application. It includes data classes and repository classes that handle data operations.
+   + View:
 
-  + Represents the UI layer of the application. It includes Activities and Fragments that display data to the user.
-+ ViewModel:
+     + Represents the UI layer of the application. It includes Activities and Fragments that display data to the user.
+   + ViewModel:
 
-  +Acts as a bridge between the Model and the View. It holds the data and business logic, exposing it to the View.
+     +Acts as a bridge between the Model and the View. It holds the data and business logic, exposing it to the View.
 ## Libraries Used
 + Retrofit: For network calls to fetch news data from the API
 + Glide: For image loading and caching
