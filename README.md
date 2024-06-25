@@ -38,22 +38,19 @@ NewsApp is an Android application that provides users with the latest news artic
    ```
 2. Open the project in Android Studio:
 
-  + Open Android Studio
-  + Select Open an existing Android Studio project
-  + Navigate to the cloned repository directory and select it
+      + Open Android Studio
+      + Select Open an existing Android Studio project
+      + Navigate to the cloned repository directory and select it
   
 3. Get an API Key:
-
-  + This app uses the NewsAPI to fetch news articles. You will need an API key from `[https://newsapi.org](https://newsapi.org/)`.
-
-  + Sign up on NewsAPI and get your API key.
+      + This app uses the NewsAPI to fetch news articles. You will need an API key from `[https://newsapi.org](https://newsapi.org/)`.
+      + Sign up on NewsAPI and get your API key.
 4. Add the API Key to the project:
-  + Open `util/Constants` and add the `api_key`
+      + Open `util/Constants` and add the `api_key`
   
 5. Run the app:
-
-  + Connect your Android device or start an emulator
-  + Click on the `Run` button in Android Studio
+      + Connect your Android device or start an emulator
+      + Click on the `Run` button in Android Studio
 ## Usage1
 1. Home Screen:
 
