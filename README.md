@@ -76,7 +76,6 @@ NewsApp is an Android application that provides users with the latest news artic
 + LiveData: For observable data holders
 + ViewModel: For managing UI-related data in a lifecycle-conscious way
 + RecyclerView: For displaying a list of news articles
-+ Room: For local database storage (if applicable)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
