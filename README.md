@@ -57,11 +57,11 @@ NewsApp is an Android application that provides users with the latest news artic
   + Displays the latest news articles in a list.
   + Click on any article to view its details.
 2. Article Detail:
-
-  + Displays the full content of the selected news article.
+  + Displays the full content of the selected news article and click the `Favourite` Icon to save in the `Favourite Section`.
 3. Search:
-
   + Use the search bar to find news articles based on keywords.
+4. Favourite Section:
+  + You may view your favourite News and you may swipe `right` or `left` to remove from favourite list.
 ## Architecture
  +The app follows the MVVM (Model-View-ViewModel) architecture pattern to ensure a clean separation of concerns and to make the code more maintainable.
    + Model:
