@@ -1,4 +1,4 @@
-# NewsApp
+# NewsApp 📰📱
 
 NewsApp is an Android application that provides users with the latest news articles from various sources. The app fetches news data from a remote API and displays it in a user-friendly interface.
 
