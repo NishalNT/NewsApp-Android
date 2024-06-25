@@ -63,7 +63,7 @@ NewsApp is an Android application that provides users with the latest news artic
 4. Favourite Section:
   + You may view your favourite News and you may swipe `right` or `left` to remove from favourite list.
 ## Architecture
- +The app follows the MVVM (Model-View-ViewModel) architecture pattern to ensure a clean separation of concerns and to make the code more maintainable.
+ The app follows the MVVM (Model-View-ViewModel) architecture pattern to ensure a clean separation of concerns and to make the code more maintainable.
    + Model:
      + Represents the data layer of the application. It includes data classes and repository classes that handle data operations.
    + View:
