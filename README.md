@@ -21,9 +21,12 @@ NewsApp is an Android application that provides users with the latest news artic
 - Responsive and user-friendly UI
 
 ## Screenshots
-![Headlines](screenshots/headlines.jpg)
-![Article Detail](screenshots/headlines2.jpg)
-![Favourites](screenshots/fav.jpg)
+
+<div>
+   <img src="screenshots/headlines.jpg" height="400" width="200">
+   <img src="screenshots/headlines2.jpg" height="400" width="200">
+   <img src="screenshots/fav" height="400" width="200">
+</div>
 
 ## Installation
 
@@ -78,4 +81,4 @@ NewsApp is an Android application that provides users with the latest news artic
 + Room: For local database storage (if applicable)
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
