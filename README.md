@@ -22,7 +22,7 @@ NewsApp is an Android application that provides users with the latest news artic
 
 ## Screenshots
 
-<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: auto; gap: 20px;">
+<div style="gap: 20px;" gap="20px">
     <img src="screenshots/headlines.jpg" alt="Headlines" height="400" width="200">
     <img src="screenshots/headlines2.jpg" alt="Headlines 2" height="400" width="200">
     <img src="screenshots/fav.jpg" alt="Favorites" height="400" width="200">
